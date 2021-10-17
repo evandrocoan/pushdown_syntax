@@ -4,10 +4,10 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>pushdown</string>
+		<string>lark</string>
 	</array>
 	<key>name</key>
-	<string>Pushdown grammar</string>
+	<string>Lark grammar</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -22,27 +22,27 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator.other.pushdown</string>
+					<string>keyword.operator.other.lark</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.pushdown</string>
+					<string>entity.name.function.lark</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator.priority.pushdown</string>
+					<string>keyword.operator.priority.lark</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>constant.numeric.integer.pushdown</string>
+					<string>constant.numeric.integer.lark</string>
 				</dict>
 				<key>6</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator.definition.pushdown</string>
+					<string>keyword.operator.definition.lark</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -50,7 +50,7 @@
 			<key>endCaptures</key>
 			<dict></dict>
 			<key>name</key>
-			<string>meta.syntax-rule.pushdown</string>
+			<string>meta.syntax-rule.lark</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -71,7 +71,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator.alternative.pushdown</string>
+					<string>keyword.operator.alternative.lark</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -79,7 +79,7 @@
 			<key>endCaptures</key>
 			<dict></dict>
 			<key>name</key>
-			<string>meta.syntax-rule-alternative.pushdown</string>
+			<string>meta.syntax-rule-alternative.lark</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -100,7 +100,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.pushdown</string>
+					<string>keyword.control.lark</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -108,7 +108,7 @@
 			<key>endCaptures</key>
 			<dict></dict>
 			<key>name</key>
-			<string>meta.ignore.pushdown</string>
+			<string>meta.ignore.lark</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -129,7 +129,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.import.pushdown</string>
+					<string>keyword.control.import.lark</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -137,7 +137,7 @@
 			<key>endCaptures</key>
 			<dict></dict>
 			<key>name</key>
-			<string>meta.import.pushdown</string>
+			<string>meta.import.lark</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -160,28 +160,28 @@
 			<key>end</key>
 			<string>(?=\n)</string>
 			<key>name</key>
-			<string>comment.line.pushdown</string>
+			<string>comment.line.lark</string>
 		</dict>
 		<key>invalid</key>
 		<dict>
 			<key>match</key>
 			<string>\([ \t]*[*:/][ \t]*\)</string>
 			<key>name</key>
-			<string>invalid.illegal.pushdown</string>
+			<string>invalid.illegal.lark</string>
 		</dict>
 		<key>non-terminal</key>
 		<dict>
 			<key>match</key>
 			<string>[a-z_]+</string>
 			<key>name</key>
-			<string>variable.other.non-terminal.pushdown</string>
+			<string>variable.other.non-terminal.lark</string>
 		</dict>
 		<key>terminal</key>
 		<dict>
 			<key>match</key>
 			<string>[A-Z_]+</string>
 			<key>name</key>
-			<string>variable.other.terminal.pushdown</string>
+			<string>variable.other.terminal.lark</string>
 		</dict>
 		<key>operator</key>
 		<dict>
@@ -218,42 +218,42 @@
 			<key>match</key>
 			<string>\.\.</string>
 			<key>name</key>
-			<string>keyword.operator.range.pushdown</string>
+			<string>keyword.operator.range.lark</string>
 		</dict>
 		<key>operator-alternative</key>
 		<dict>
 			<key>match</key>
 			<string>\|</string>
 			<key>name</key>
-			<string>keyword.operator.alternative.pushdown</string>
+			<string>keyword.operator.alternative.lark</string>
 		</dict>
 		<key>operator-arrow</key>
 		<dict>
 			<key>match</key>
 			<string>-&gt;</string>
 			<key>name</key>
-			<string>keyword.operator.alias.pushdown</string>
+			<string>keyword.operator.alias.lark</string>
 		</dict>
 		<key>operator-zero-or-more</key>
 		<dict>
 			<key>match</key>
 			<string>\*</string>
 			<key>name</key>
-			<string>keyword.operator.zero-or-more.pushdown</string>
+			<string>keyword.operator.zero-or-more.lark</string>
 		</dict>
 		<key>operator-one-or-more</key>
 		<dict>
 			<key>match</key>
 			<string>\+</string>
 			<key>name</key>
-			<string>keyword.operator.one-or-more.pushdown</string>
+			<string>keyword.operator.one-or-more.lark</string>
 		</dict>
 		<key>operator-optional</key>
 		<dict>
 			<key>match</key>
 			<string>\?</string>
 			<key>name</key>
-			<string>keyword.operator.optional.pushdown</string>
+			<string>keyword.operator.optional.lark</string>
 		</dict>
 		<key>group</key>
 		<dict>
@@ -264,7 +264,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.group.begin.pushdown</string>
+					<string>keyword.other.group.begin.lark</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -274,7 +274,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.group.end.pushdown</string>
+					<string>keyword.other.group.end.lark</string>
 				</dict>
 			</dict>
 			<key>patterns</key>
@@ -294,7 +294,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.optional.begin.pushdown</string>
+					<string>keyword.other.optional.begin.lark</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -304,7 +304,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.optional.end.pushdown</string>
+					<string>keyword.other.optional.end.lark</string>
 				</dict>
 			</dict>
 			<key>patterns</key>
@@ -324,22 +324,22 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator.quantifier.pushdown</string>
+					<string>keyword.operator.quantifier.lark</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>constant.numeric.integer.pushdown</string>
+					<string>constant.numeric.integer.lark</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator.quantifier.pushdown</string>
+					<string>keyword.operator.quantifier.lark</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>constant.numeric.integer.pushdown</string>
+					<string>constant.numeric.integer.lark</string>
 				</dict>
 			</dict>
 		</dict>
@@ -352,7 +352,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>string.quoted.other.pushdown</string>
+					<string>string.quoted.other.lark</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -362,16 +362,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>string.quoted.other.pushdown</string>
+					<string>string.quoted.other.lark</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.regexp-option.pushdown</string>
+					<string>keyword.control.regexp-option.lark</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>source.regexp.pushdown</string>
+			<string>source.regexp.lark</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -391,11 +391,11 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.regexp-option.pushdown</string>
+					<string>keyword.control.regexp-option.lark</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.single.pushdown</string>
+			<string>string.quoted.single.lark</string>
 		</dict>
 		<key>double-quote-string</key>
 		<dict>
@@ -408,11 +408,11 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.regexp-option.pushdown</string>
+					<string>keyword.control.regexp-option.lark</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.pushdown</string>
+			<string>string.quoted.double.lark</string>
 		</dict>
 		<key>subrules</key>
 		<dict>
@@ -462,7 +462,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.pushdown</string>
+	<string>source.lark</string>
 	<key>uuid</key>
 	<string>600B8144-8839-497F-B5A9-A130CAC61159</string>
 </dict>
